@@ -1,0 +1,79 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+.pnp
+.pnp.js
+
+# ========================
+# Environment Variables (NEVER commit these)
+# ========================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test.local
+.env.production
+.env.production.local
+
+# ========================
+# Build Outputs
+# ========================
+dist/
+build/
+out/
+
+# ========================
+# TypeScript compiled output
+# ========================
+*.js.map
+*.d.ts.map
+
+# ========================
+# Server: uploaded images temp folder
+# ========================
+server/images/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# Vite cache
+# ========================
+client/.vite/
+
+# ========================
+# Misc
+# ========================
+*.tgz
+.cache/
